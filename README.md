@@ -21,3 +21,15 @@ An end-to-end machine learning pipeline that fetches historical daily stock data
    ```bash
    git clone [https://github.com/MEugene777/stock-price-predictor.git](https://github.com/MEugene777/stock-price-predictor.git)
    cd stock-price-predictor
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Copy `.env.example` to `.env` and add your free [Alpaca Markets](https://alpaca.markets/) API keys.
+4. Run the pipeline:
+   ```bash
+   python3 stock_prediction.py
+   ```
+
+> **Disclaimer:** *This project is for educational and portfolio demonstration purposes only and does not constitute financial or investment advice.*
